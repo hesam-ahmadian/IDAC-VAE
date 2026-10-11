@@ -1613,7 +1613,7 @@ def find_idac_outlier_rows(df):
 LEARNING_RATE = 1e-3
 target_transformer = PowerTransformer(method="yeo-johnson", standardize=True)
 id = 1 # 1 for case study 1 and 2 for the second case study
-EPOCHS, patience, BATCH_SIZE  = 25, 250 , 128
+EPOCHS, patience, BATCH_SIZE  = 10000000, 250 , 128
 SEED, ERROR_THRESHOLD, min_delta  = 123469, 1.0 , 1e-4 
 set_seed(SEED)
 ##############################################
